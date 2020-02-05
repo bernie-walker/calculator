@@ -7,7 +7,7 @@ const subtract = function(n1, n2) {
 };
 
 const divide = function(n1, n2) {
-  while(n1 > n2) {
+  while(n1 >= n2) {
     n1 = n1 - n2;
   }
   return n1;
