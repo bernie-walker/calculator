@@ -6,6 +6,13 @@ const subtract = function(n1, n2) {
   return n1 - n2;
 };
 
+const divide = function(n1, n2) {
+  while(n1 > n2) {
+    n1 = n1 - n2;
+  }
+  return n1;
+};
+
 const main = function() {
   const [operand1, operand2, sign] = process.argv.slice(2);
   const selectOperation = {
