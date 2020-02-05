@@ -1,7 +1,7 @@
-const add = function(num1, num2) {
-  return num1 + num2;
+const add = function(n1, n2) {
+  return n1 + n2;
 };
 
-const subtract = function(firstNumber, secondNumber) {
-  return firstNumber - secondNumber;
+const subtract = function(n1, n2) {
+  return n1 - n2;
 };
