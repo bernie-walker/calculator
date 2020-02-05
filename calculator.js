@@ -1,3 +1,11 @@
+const mul = function(n1,n2){
+  let product = 0;
+  for(let index = 0; index<n2;index++){
+    product = add(product,n1)
+  }
+  return product;
+}
+
 const add = function(n1, n2) {
   return n1 + n2;
 };
